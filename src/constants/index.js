@@ -23,6 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  logo,
 } from "../assets";
 
 export const navLinks = [
@@ -33,6 +34,10 @@ export const navLinks = [
   {
     id: "work",
     title: "Work",
+  },
+  {
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -116,15 +121,26 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Web Developer & UI/UX Intern",
-    company_name: "Enzyme Digital",
-    icon: shopify,
+    title: "Data Science & MLOps Engineer (full time)",
+    company_name: "Careem (Uber Inc.)",
+    icon: tesla,
     iconBg: "#383E56",
-    date: "Jun 2021 - Aug 2021",
+    date: "May 2023 – Current",
     points: [
-      "Designed SEO-friendly and responsive E-commerce and corporate webapplication in 12 weeks. Analyzed client's requirements and used agency's pre-build sections to aim for 90%+ performance with quick delivery.",
-      "Improved 100% web traffic accuracy while integrating Facebook Pixel and Google tag, and reduced employee time developing a React-based application to automate a 4-hour daily task, cutting time in half",
-      "Developed a report display component with i18n for a top US-based security company portal in two days. Explained the code design to colleagues so they can start.",
+      "Developed a pseudonymisation script ensuring data privacy before sharing with other parties, completed within 7 days, using Clean Code design principles.",
+      "Participated in collaborative academic projects, conducting dataset analysis & evaluating Machine Learning models for supply/demand prediction, CLTV calculation & fraud detection, while prioritizing rapid script development and thorough documentation to facilitate comparisons with current production models.",
+    ],
+  },
+  {
+    title: "Lab/Software Developer (Part Time)",
+    company_name: "Al Nafi",
+    icon: meta,
+    iconBg: "#E6DEDD",
+    date: "Sept 2022 – Apr 2023",
+    points: [
+      "Developed hands-on applications using AWS tools (Transcribe, Polly, Code Pipeline, Fraud Detector and Face Detector) and DApps (Ganache and Truffle) in 2 days each.",
+      "Customizing an open source CRM based on React and Django to increase sales team productivity by 80%.",
+      "Led a team of 7+ members to set up and customize LMS and CMS using the OpenEdx platform",
     ],
   },
   {
@@ -139,17 +155,17 @@ const experiences = [
     ],
   },
   {
-    title: "Lab/Software Developer (Part Time)",
-    company_name: "Al Nafi",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jun 2022 - Aug 2022",
+    title: "Web Developer & UI/UX Intern",
+    company_name: "Enzyme Digital",
+    icon: shopify,
+    iconBg: "#383E56",
+    date: "Jun 2021 - Aug 2021",
     points: [
-      "Developed hands-on applications using AWS tools (Transcribe, Polly, Code Pipeline, Fraud Detector and Face Detector) and DApps (Ganache and Truffle) in 2 days each.",
-      "Customizing an open source CRM based on React and Django to increase sales team productivity by 80%.",
-      "Led a team of 7+ members to set up and customize LMS and CMS using the OpenEdx platform",
+      "Designed SEO-friendly and responsive E-commerce and corporate webapplication in 12 weeks. Analyzed client's requirements and used agency's pre-build sections to aim for 90%+ performance with quick delivery.",
+      "Improved 100% web traffic accuracy while integrating Facebook Pixel and Google tag, and reduced employee time developing a React-based application to automate a 4-hour daily task, cutting time in half",
+      "Developed a report display component with i18n for a top US-based security company portal in two days. Explained the code design to colleagues so they can start.",
     ],
-  },
+    },
 ];
 
 const testimonials = [
@@ -302,6 +318,43 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/ahmedtahirshekhani/fikta-erps",
+  },
+  {
+    name: "Mint It — Blockchain",
+    description:
+      "A group-based project where we developed a web application to connect NFT in the supply chain. In this users can easily fetch the details of the NFT asset and register the NFT on the Stacks blockchain which provides smart contract layering over the Bitcoin blockchain.",
+    tags: [
+      {
+        name: "Blockchain Architecture",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Responsive Design",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "API Integration",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Next.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: logo,
+    source_code_link: "https://github.com/ahmedtahirshekhani/",
   },
 ];
 
