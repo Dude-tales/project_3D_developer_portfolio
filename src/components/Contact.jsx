@@ -80,14 +80,14 @@ const Contact = () => {
           <br></br>
           <table>
           <ul className={styles.sectionSubText} > E-mail:</ul>
-          <div className="container space-x-4"> <img src="src\assets\email.jpeg" height="20px" width="30px" ></img><a href="mailto:ahmedtahir2000@gmail.com">ahmedtahir2000@gmail.com</a></div>
+          <div className="container space-x-4"> <img src="src/assets/email.jpeg" height="20px" width="30px" ></img><a href="mailto:ahmedtahir2000@gmail.com">ahmedtahir2000@gmail.com</a></div>
           <ul className={styles.sectionSubText} > Phone:</ul>
-          <div className="container space-x-4"> <img src="src\assets\phone.jpg" height="20px" width="30px" ></img><a href="tel:0092-321-25-75665">+0092-321-25-75665</a></div>
+          <div className="container space-x-4"> <img src="src/assets/phone.jpg" height="20px" width="30px" ></img><a href="tel:0092-321-25-75665">0092-321-25-75665</a></div>
          </table>
          <div className="container bhai space-x-12">
-          <a href="https://github.com/ahmedtahirshekhani"><img src="src\assets\github.png" height="100px" width="50px"></img> </a>
-          <a href="https://stackoverflow.com/users/12695074/ahmed-tahir-shekhani"><img src="src\assets\stackoverflow.png" height="100px" width="50px"></img> </a>
-          <a href="https://www.linkedin.com/in/ahmedtahirshekhani/"><img src="src\assets\linkedin.avif" height="100px" width="50px"></img> </a>
+          <a href="https://github.com/ahmedtahirshekhani"><img src="src/assets/github.png" height="100px" width="50px"></img> </a>
+          <a href="https://stackoverflow.com/users/12695074/ahmed-tahir-shekhani"><img src="src/assets/stackoverflow.png" height="100px" width="50px"></img> </a>
+          <a href="https://www.linkedin.com/in/ahmedtahirshekhani/"><img src="src/assets/linkedin.avif" height="100px" width="50px"></img> </a>
          </div>
         </div>
       </motion.div>

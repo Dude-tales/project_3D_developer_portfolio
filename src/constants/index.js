@@ -238,9 +238,9 @@ const team = [
 
 const projects = [
   {
-    name: "Webhost - Your Hosting Destination (MERN) - InProgress",
+    name: "DataCollege - Empowering Students (MERN)    ",
     description:
-      " Webhost is your one-stop destination for hosting and domain services. With the reliability of MERN, we've created a user-friendly platform that offers a seamless hosting experience.",
+      "DataCollege empowers students by allowing them to upload transcripts and access teacher ratings and grade distributions. Using MERN, we've transformed the educational journey into a data-driven adventure.",
       tags: [
 
       ],
