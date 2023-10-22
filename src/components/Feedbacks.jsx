@@ -52,6 +52,7 @@ const Feedbacks = () => {
         {team.map((team, index) => (
           <FeedbackCard key={team.name} index={index} {...team} />
         ))}
+        <div className="m-auto mb-5"><strong>And many more ...</strong></div>
       </div>
     </div>
   );

@@ -189,51 +189,51 @@ const team = [
     name: " Faizan Lodhi",
     status:"The SAP Sage",
   },
-  {
-    team:" Moiz boasts 5 years of web development expertise in PHP and Javascript. His code weaves magic, turning web projects into captivating digital experiences.",
-    name: " Moiz",
-    status:"The Web Wizard",
-  },
-  {
-    team:"With 8 years of web development under his belt, Ahmed is a Software Engineer force to be reckoned with in PHP and Javascript. He transforms ideas into functional and visually stunning websites.",
-    name: "Ahmed Raza",
-    status:"The Code Craftsman",
-  },
-  {
-    team:" Aamir's 6 years of web development experience are a testament to his commitment to perfection. His websites are not just functional; they are works of art.",
-    name: " Aamir",
-    status:"The Web Artisan",
-  },
-  {
-    team:"With 1 to 1.5 years of experience, Affan is not just a Software Engineer but also a Project Manager who ensures every project is a resounding success.",
-    name: " Affan Mirza",
-    status:"The Software Visionary",
-  },
-  {
-    team:"With over a year of experience, Hamza, a Software Engineer, is on a rapid trajectory towards becoming a formidable force in the world of IT.",
-    name: " Hamza",
-    status:"The Emerging Dynamo",
-  },
-  {
-    team:"With 1 year of experience, Sarim's coding skills, as a Software Engineer, are finely honed, delivering robust software solutions.",
-    name: "Sarim",
-    status:"The Code Virtuoso",
-  },
-  {
-    team:" Kabir, as a Software Engineer, brings flair and finesse to every software project he touches with 1 year of experience.",
-    name: "Kabir",
-    status:"The Code Enthusiast",
-  },
-  {
-    team:"Aashish, also with 1 year of experience as a Software Engineer, brings an artistic touch to software development, creating visually stunning applications.",
-    name: "Aashish",
-    status:"The Digital Craftsman",
-  },
-  {
-    team:"Our freshest talent, Yousaf, may have zero years of experience as a Software Engineer, but his passion and dedication are boundless, making him a promising addition to our team.",
-    name: "Yousuf",
-    status:"The Aspiring Innovator",
-  },
+  // {
+  //   team:" Moiz boasts 5 years of web development expertise in PHP and Javascript. His code weaves magic, turning web projects into captivating digital experiences.",
+  //   name: " Moiz",
+  //   status:"The Web Wizard",
+  // },
+  // {
+  //   team:"With 8 years of web development under his belt, Ahmed is a Software Engineer force to be reckoned with in PHP and Javascript. He transforms ideas into functional and visually stunning websites.",
+  //   name: "Ahmed Raza",
+  //   status:"The Code Craftsman",
+  // },
+  // {
+  //   team:" Aamir's 6 years of web development experience are a testament to his commitment to perfection. His websites are not just functional; they are works of art.",
+  //   name: " Aamir",
+  //   status:"The Web Artisan",
+  // },
+  // {
+  //   team:"With 1 to 1.5 years of experience, Affan is not just a Software Engineer but also a Project Manager who ensures every project is a resounding success.",
+  //   name: " Affan Mirza",
+  //   status:"The Software Visionary",
+  // },
+  // {
+  //   team:"With over a year of experience, Hamza, a Software Engineer, is on a rapid trajectory towards becoming a formidable force in the world of IT.",
+  //   name: " Hamza",
+  //   status:"The Emerging Dynamo",
+  // },
+  // {
+  //   team:"With 1 year of experience, Sarim's coding skills, as a Software Engineer, are finely honed, delivering robust software solutions.",
+  //   name: "Sarim",
+  //   status:"The Code Virtuoso",
+  // },
+  // {
+  //   team:" Kabir, as a Software Engineer, brings flair and finesse to every software project he touches with 1 year of experience.",
+  //   name: "Kabir",
+  //   status:"The Code Enthusiast",
+  // },
+  // {
+  //   team:"Aashish, also with 1 year of experience as a Software Engineer, brings an artistic touch to software development, creating visually stunning applications.",
+  //   name: "Aashish",
+  //   status:"The Digital Craftsman",
+  // },
+  // {
+  //   team:"Our freshest talent, Yousaf, may have zero years of experience as a Software Engineer, but his passion and dedication are boundless, making him a promising addition to our team.",
+  //   name: "Yousuf",
+  //   status:"The Aspiring Innovator",
+  // },
 ];
 
 const projects = [

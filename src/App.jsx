@@ -11,7 +11,6 @@ const App = () => {
           <Hero />
         </div>
         <About />
-        <div style={{display:'flex', justifyContent:"center", alignitems:"center" }}><video src="/video/bro.mp4" controls center width="800" height="800" /></div>
         <Experience />
       <Tech />
         <Works />

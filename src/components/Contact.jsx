@@ -6,6 +6,11 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import email from "../assets/icons/email.jpeg";
+import linkedin from "../assets/icons/linkedin.avif";
+import phone from "../assets/icons/phone.jpg";
+import stackoverflow from "../assets/icons/stackoverflow.png";
+import github from "../assets/github.png";
 
 const Contact = () => {
   const formRef = useRef();
@@ -66,7 +71,7 @@ const Contact = () => {
 
   return (
     <div
-      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
+      className={`flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
     >
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
@@ -80,14 +85,14 @@ const Contact = () => {
           <br></br>
           <table>
           <ul className={styles.sectionSubText} > E-mail:</ul>
-          <div className="container space-x-4"> <img src="public/email.jpeg" height="20px" width="30px" ></img><a href="mailto:ahmedtahir2000@gmail.com">ahmedtahir2000@gmail.com</a></div>
+          <div className="container space-x-4"> <img src={email} height="20px" width="30px" ></img><a href="mailto:ahmedtahir2000@gmail.com">ahmedtahir2000@gmail.com</a></div>
           <ul className={styles.sectionSubText} > Phone:</ul>
-          <div className="container space-x-4"> <img src="public/phone.jpg" height="20px" width="30px" ></img><a href="tel:0092-321-25-75665">0092-321-25-75665</a></div>
+          <div className="container space-x-4"> <img src={phone} height="20px" width="30px" ></img><a href="tel:0092-321-25-75665">0092-321-25-75665</a></div>
          </table>
          <div className="container bhai space-x-12">
-          <a href="https://github.com/ahmedtahirshekhani"><img src="src/assets/github.png" height="100px" width="50px"></img> </a>
-          <a href="https://stackoverflow.com/users/12695074/ahmed-tahir-shekhani"><img src="public/stackoverflow.png" height="100px" width="50px"></img> </a>
-          <a href="https://www.linkedin.com/in/ahmedtahirshekhani/"><img src="public/linkedin.avif" height="100px" width="50px"></img> </a>
+          <a href="https://github.com/ahmedtahirshekhani"><img src={github} height="100px" width="50px"></img> </a>
+          <a href="https://stackoverflow.com/users/12695074/ahmed-tahir-shekhani"><img src={stackoverflow} height="100px" width="50px"></img> </a>
+          <a href="https://www.linkedin.com/in/ahmedtahirshekhani/"><img src={linkedin} height="100px" width="50px"></img> </a>
          </div>
         </div>
       </motion.div>

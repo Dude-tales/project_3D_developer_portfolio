@@ -51,9 +51,13 @@ const About = () => {
         Currently at <strong>Careem</strong>, I ensure data privacy and optimize machine learning
          models for <strong>supply/demand, CLTV, and fraud detection.</strong> Previous roles at
         Al Nafi and <strong>10Pearls</strong> saw me create cutting-edge applications and lead dynamic teams.
-        Tech education from <strong>Lahore University of Management Sciences (LUMS)*, with a CGPA of *3.75.</strong><br></br>
+        <br />
          Let's connect and explore opportunities to innovate together!🔗
+        <br />
+        <br />
+
       </motion.p>
+              <div style={{display:'flex', justifyContent:"center", alignitems:"center" }}><video src="/video/bro.mp4" controls center width="800" height="800" /></div>
 
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
