@@ -13,10 +13,10 @@ const App = () => {
         <About />
         <div style={{display:'flex', justifyContent:"center", alignitems:"center" }}><video src="/video/bro.mp4" controls center width="800" height="800" /></div>
         <Experience />
-        <Tech />
+      <Tech />
         <Works />
         <Feedbacks />
-        <div className='relative z-1'>
+        <div className='relative z-0'>
           <Contact />
           <StarsCanvas />
         </div>

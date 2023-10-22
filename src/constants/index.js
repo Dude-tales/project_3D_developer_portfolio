@@ -25,6 +25,9 @@ import {
   tripguide,
   threejs,
   logo,
+  webhost,
+  bitgift,
+  shopifyplugins,
 } from "../assets";
 
 export const navLinks = [
@@ -169,34 +172,101 @@ const experiences = [
     },
 ];
 
-const testimonials = [
+const team = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Ahmed proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    name: "Ahmed Tahir Shekhani ",
+    status: "The Full Stack Maestro",
+    team:"  Armed with 3.5 years of experience, Ahmed Tahir Shekhani, a Software Engineer, crafts digital solutions with finesse, bridging the gap between front-end and back-end effortlessly.",
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Ahmed does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    team:" With a staggering 9 years of experience in Flutter and Android/iOS development, Saeed leads a dynamic team of Software Engineers specializing in mobile app development. He doesn't just build apps; he crafts seamless experiences.",
+    name:"Saeed",
+    status:"The Mobile Maven",
+   
   },
   {
-    testimonial:
-      "After Ahmed optimized our website, our traffic increased by 50%. We can't thank him enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    team:" As our senior SAP resource, Faizan Lodhi brings a wealth of expertise with 4+ years of experience in SAP ABAP development and deep knowledge of SAP 4 HANA. His prowess in SAP solutions is unmatched, making him a key asset for any enterprise's SAP needs",
+    name: " Faizan Lodhi",
+    status:"The SAP Sage",
+  },
+  {
+    team:" Moiz boasts 5 years of web development expertise in PHP and Javascript. His code weaves magic, turning web projects into captivating digital experiences.",
+    name: " Moiz",
+    status:"The Web Wizard",
+  },
+  {
+    team:"With 8 years of web development under his belt, Ahmed is a Software Engineer force to be reckoned with in PHP and Javascript. He transforms ideas into functional and visually stunning websites.",
+    name: "Ahmed Raza",
+    status:"The Code Craftsman",
+  },
+  {
+    team:" Aamir's 6 years of web development experience are a testament to his commitment to perfection. His websites are not just functional; they are works of art.",
+    name: " Aamir",
+    status:"The Web Artisan",
+  },
+  {
+    team:"With 1 to 1.5 years of experience, Affan is not just a Software Engineer but also a Project Manager who ensures every project is a resounding success.",
+    name: " Affan Mirza",
+    status:"The Software Visionary",
+  },
+  {
+    team:"With over a year of experience, Hamza, a Software Engineer, is on a rapid trajectory towards becoming a formidable force in the world of IT.",
+    name: " Hamza",
+    status:"The Emerging Dynamo",
+  },
+  {
+    team:"With 1 year of experience, Sarim's coding skills, as a Software Engineer, are finely honed, delivering robust software solutions.",
+    name: "Sarim",
+    status:"The Code Virtuoso",
+  },
+  {
+    team:" Kabir, as a Software Engineer, brings flair and finesse to every software project he touches with 1 year of experience.",
+    name: "Kabir",
+    status:"The Code Enthusiast",
+  },
+  {
+    team:"Aashish, also with 1 year of experience as a Software Engineer, brings an artistic touch to software development, creating visually stunning applications.",
+    name: "Aashish",
+    status:"The Digital Craftsman",
+  },
+  {
+    team:"Our freshest talent, Yousaf, may have zero years of experience as a Software Engineer, but his passion and dedication are boundless, making him a promising addition to our team.",
+    name: "Yousuf",
+    status:"The Aspiring Innovator",
   },
 ];
 
 const projects = [
+  {
+    name: "Webhost - Your Hosting Destination (MERN) - InProgress",
+    description:
+      " Webhost is your one-stop destination for hosting and domain services. With the reliability of MERN, we've created a user-friendly platform that offers a seamless hosting experience.",
+      tags: [
+
+      ],
+    image: webhost,
+    source_code_link: "https://github.com/ahmedtahirshekhani/",
+  },
+  {
+    name: "BitGift - Simplifying Crypto Trading (MERN)",
+    description:
+      " Bid Gift is a blockchain-based marketplace that simplifies cryptocurrency trading. With the power of MERN, we've made buying and selling digital assets a breeze, ushering in a new era of crypto accessibility.",
+      tags: [
+
+      ],
+    image: bitgift,
+    source_code_link: "http://thebitgiftcard.com",
+  },
+  {
+    name: "Shopify - OneTag: AI-Powered Sales (Shopify Plugins)",
+    description:
+      " In collaboration with Shopify, we've unleashed OneTag, an AI-powered sales enhancer. Through Shopify plugins, we've automated product descriptions, enhancing the shopping experience and skyrocketing sales.",
+      tags: [
+
+      ],
+    image: shopifyplugins,
+    source_code_link: "https://apps.shopify.com/onetag-ai",
+  },
   {
     name: "ML-Language Detector",
     description:
@@ -359,4 +429,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, team, projects };

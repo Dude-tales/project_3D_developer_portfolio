@@ -29,7 +29,11 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import logo2 from "./logo2.png";
+import bitgift from "./bitgift.png";
+import shopifyplugins from "./shopifyplugins.png";
+import webhost from "./webhost.png";
 import tripguide from "./tripguide.png";
+
 
 export {
   logo,
@@ -61,4 +65,7 @@ export {
   jobit,
   logo2,
   tripguide,
+  bitgift,
+  shopifyplugins,
+  webhost,
 };
