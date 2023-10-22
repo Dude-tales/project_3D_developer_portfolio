@@ -21,6 +21,7 @@ import {
   shopify,
   carrent,
   jobit,
+  logo2,
   tripguide,
   threejs,
   logo,
@@ -353,7 +354,7 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: logo,
+    image: logo2,
     source_code_link: "https://github.com/ahmedtahirshekhani/",
   },
 ];
