@@ -14,13 +14,13 @@ const Hero = () => {
           <div className='w-1 sm:h-80 h-40 violet-gradient' />
         </div>
 
-        <div>
+        <div className="m-2">
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <span className='text-[#915EFF]'>Mr.Shekhani</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+          <p className={`pb-2 ${styles.heroSubText} mt-2 text-white-100`}>
           🚀 Full Stack Developer | Data Scientist | ML Ops Engineer 🚀
-          <br className='sm:block hidden' />
+          <br className='sm:hidden' />
            
           </p>
         </div>
@@ -28,9 +28,9 @@ const Hero = () => {
 
       <ComputersCanvas />
 
-      <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
+      <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center show '>
         <a href='#about'>
-          <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
+          <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2 pt-4 show '>
             <motion.div
               animate={{
                 y: [0, 24, 0],
@@ -40,7 +40,7 @@ const Hero = () => {
                 repeat: Infinity,
                 repeatType: "loop",
               }}
-              className='w-3 h-3 rounded-full bg-secondary mb-1'
+              className='w-3 h-3 rounded-full bg-secondary mb-1 pt-3'
             />
           </div>
         </a>
